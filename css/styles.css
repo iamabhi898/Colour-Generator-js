@@ -1,0 +1,145 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+body {
+    background-color: #FFFF00;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/**************** Side Palette ********************/
+
+.colorPalette {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 2px 8px gray;
+    display: inline-block;
+    height: 80vh;
+    margin-left: 2%;
+    padding: 20px auto 20px;
+    position: relative;
+    text-align: center;
+    top: 60px;
+    width: 90px;
+}
+
+.colors {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color {
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px gray;
+    height: 7vh;
+    margin: 0px auto 10px;
+    transition: 0.4s;
+    width: 7vh;
+}
+
+.color:hover {
+    box-shadow: 0px 2px 6px darkslategrey;
+    height: 9.5vh;
+    width: 9.5vh;
+}
+
+img {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.color.white {
+    background-color: white;
+}
+
+.color.red {
+    background-color: red;
+}
+
+.color.yellow {
+    background-color: yellow;
+}
+
+.color.green {
+    background-color: green;
+}
+
+.color.green:hover {
+    box-shadow: 1px 2px 8px gray;
+}
+
+.color.blue {
+    background-color: blue;
+}
+
+.color.orange {
+    background-color: orange;
+}
+
+.color.purple {
+    background-color: purple;
+}
+
+.color.black {
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+/***************** Color Picker ********************/
+
+.colorPicker {
+    display: inline-block;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hexCode {
+    background-color: #1b262c;
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px gray;
+    color: whitesmoke;
+    font-size: 45px;
+    padding: 30px 0px 30px;
+    width: 30vw;
+}
+
+.clickMe {
+    border-style: solid;
+    border-color: #1b262c;
+    border-radius: 25px;
+    color: whitesmoke;
+    font-size: 26px;
+    margin: 30px auto 0px;
+    padding: 10px 0px 10px;
+    width: 30%;
+    transition: 0.5s;
+    text-shadow: 1px 1px 2px #1b262c;
+}
+
+.clickMe:hover {
+    background-color: #1b262c;
+    border-color: #1b262c;
+    border-radius: 20px;
+    color: whitesmoke;
+    width: 33%;
+}
+
+/****************** Color Name *****************/
+
+.colorName {
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-shadow: 4px 2px 0px gray;
+    color: #FFFF00;
+    font-size: 5rem;
+}
