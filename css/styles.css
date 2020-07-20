@@ -146,11 +146,11 @@ h1 {
 
 /***************** Responsiveness *******************/
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 750px) {
 
     .colorPalette {
         position: absolute;
-        top: 100px;
+        top: 50px;
         right: 20px;
     }
 
