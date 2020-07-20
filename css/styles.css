@@ -143,3 +143,44 @@ h1 {
     color: #FFFF00;
     font-size: 5rem;
 }
+
+/***************** Responsiveness *******************/
+
+@media screen and (max-width: 415px) {
+
+    .colorPalette {
+        position: absolute;
+        top: 100px;
+        right: 20px;
+    }
+
+    .colorName {
+        top: 20%;
+        left: 35%;
+    }
+
+    .colorName h1 {
+        font-size: 2.8rem;
+        text-shadow: 2px 2px 0px gray;
+    }
+
+    .colorPicker {
+        left: 35%;
+        top: 55%;
+        width: 55vw;
+    }
+
+    .hexCode {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .clickMe {
+        width: 60%;
+    }
+
+    .clickMe:hover {
+        width: 65%;
+    }
+
+}
