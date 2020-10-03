@@ -81,6 +81,18 @@ img {
     background-color: purple;
 }
 
+.color.pink {
+    background-color: pink;
+}
+
+.color.grey {
+    background-color: grey;
+}
+
+.color.teal {
+    background-color: teal;
+}
+
 .color.black {
     background-color: black;
     margin-bottom: 0px;
